@@ -1,42 +1,45 @@
-
 /* Navigation Bar  */
 
-#navbar{
+#navbar {
     flex-direction: column;
 }
 
 #navbar ul li a {
-    font-size: 11px;
-    padding: 2px;
+    font-size: 10px;
+    padding: 4px;
+    word-spacing: -3px;
 }
-#logo img{
+
+#logo img {
     height: 80px;
     width: 80px;
     margin-bottom: 50px;
 }
 
 /* Home Section  */
-#home{
+#home {
     height: 288px;
     padding: 3px 8px;
 }
+
 #home h1 {
     font-size: 34px;
 }
 
-#home p{
+#home p {
     font-size: 12px;
 }
-#home::before{
+
+#home::before {
     height: 380px;
 }
 
 /* Services Section  */
-#services{
+#services {
     flex-direction: column;
 }
 
-#services .box{
+#services .box {
     font-size: 12px;
     margin: 4px 0px;
 }
@@ -44,47 +47,48 @@
 
 
 /* Client Section  */
-#client{
+#client {
     flex-wrap: wrap;
 }
 
-#client img{
+#client img {
     height: 40px;
     padding: 4px;
-    
+
 }
 
 
 
 /* contact us section   */
-#contacts{
+#contacts {
     margin-top: 2px;
 }
 
-#contact-box form{
+#contact-box form {
     width: 80%;
 }
 
-.form-group .btn{
+.form-group .btn {
     width: 130px;
 }
 
 
 /* Footer section  */
-footer{
+footer {
     font-size: 10px;
 }
 
 
 /* utility classes  */
-.h-primary{
+.h-primary {
     font-size: 32px;
 }
-.h-secondary{
+
+.h-secondary {
     font-size: 22px;
 }
 
-.btn{
+.btn {
     font-size: 14px;
     padding: 4px 8px;
 }
